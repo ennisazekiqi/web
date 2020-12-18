@@ -1,0 +1,250 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+    <link rel="icon" href="../IMAGES/sun.png" type="image/x-icon">
+    <title>Sealine</title>
+</head>
+
+<body>
+
+<!--          *******       HEADER      *******               -->
+    <header>
+        <div class="fleks">
+            <a href="index.html"><img src="../IMAGES/LOGO.png" alt="Logo"></a>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="tourSearch.html">Tour Search</a></li>
+                    <li>
+                        <select name="gallery" id="gallery">
+                            <option selected disabled>Gallery</option>
+                            <option value="">Family Tours</option>
+                            <option value="">Combined Tours</option>
+                            <option value="">Summer Tours</option>
+                            <option value="">Exotic Tours</option>
+                            <option value="">Shore Tours</option>
+                            <option value="">Cruises</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+            
+            <label for="bookTour">
+                <a href="bookTour.html"><input type="submit" value="BOOK A TOUR NOW"></a>
+            </label>
+        </div>
+    </header>
+
+<!--          *******       MAIN      *******               -->
+
+    <div id="main">
+        <div id="content">
+            <div id="dreamTrip">
+                <h1>THE TRIP OF YOUR DREAM</h1>
+                <p>
+                    Our travel agency is ready to offer you an exciting vacation that is
+                    designed to fit your own needs and wishes. Whether it’s an exotic cruise
+                    or a trip to your favorite resort, you will surely have the best experience.
+                </p>
+            
+                <label for="learnMore">
+                    <a href="#top"><input type="submit" value="Learn More"></a>
+                </label>
+            </div>
+            
+            <div id="searchFlight">
+                <form>
+                    <h1>Find your Tour</h1>
+                    <h6 class="title1">From</h6>
+                    <select name="tour" id="from">
+                        <option value="">New Your</option>
+                        <option value="">Paris</option>
+                        <option value="">Berlin</option>
+                        <option value="">Madrid</option>
+                        <option value="">London</option>
+                    </select>
+            
+                    <h6 class="title2">To</h6>
+                    <select name="tour" id="to">
+                        <option value="">New Your</option>
+                        <option value="">Paris</option>
+                        <option value="">Berlin</option>
+                        <option value="">Madrid</option>
+                        <option value="">London</option>
+                    </select>
+            
+                    <div id="dd1">
+                        <h6 id="departDate">Depart Date</h6>
+                        <h6 id="duration">Duration</h6>
+                    </div>
+            
+                    <div id="dd2">
+                        <input type="date" id="departDate">
+                        <input type="numer" id="duration">
+                    </div>
+            
+            
+                    <div id="ac1">
+                        <h6 id="adults">Adults</h6>
+                        <h6 id="children">Childern</h6>
+                    </div>
+            
+                    <div id="ac2">
+                        <input type="numer" id="adults">
+                        <input type="numer" id="children">
+                    </div>
+            
+                    <label for="bookTour">
+                        <a href="#top"><input type="submit" value="Search Flight"></a>
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<!--          *******       OUR BEST TOURS      *******               -->
+    <div id="bestTour">
+        <div id="heading">
+            <h1>Our best Tours</h1>
+            
+            <div id="viewTours">
+                <a href="#top"><input type="submit" value="View all Tours"></a>
+            </div>
+        </div>
+
+        <div id="tourOptionStyle">
+            
+                <div id="tourRow1">
+                    <div class="price1">
+                        <div id="berlin" class="tourOptions1">
+                            <label for="berlinInput">
+                                <a href="bestTours.html"><input type="submit" value="Learn More" id="berlinInput"></a>
+                            </label>
+                        </div>
+                        <br>
+                        <h4>Germany, Berlin</h4>
+                        <h4 class="priceBerlin">$280</h4>
+                    </div>
+                    <div class="price1">
+                        <div id="boston" class="tourOptions1">
+                            <label for="bostonInput">
+                                <a href="bestTours.html"><input type="submit" value="Learn More" id="bostonInput"></a>
+                            </label>
+                        </div>
+                        <h4>USA, Boston</h4>
+                        <h4 class="priceBoston">$720</h4>
+                    </div>
+                    <div class="price1">
+                        <div id="egypt" class="tourOptions1">
+                            <label for="egyptInput">
+                                <a href="bestTours.html"><input type="submit" value="Learn More" id="egyptInput"></a>
+                            </label>
+                        </div>
+                        <h4>Egypt, Sharm El Sheikh</h4>
+                        <h4 class="priceEgypt">$520</h4>
+                    </div>
+                </div>
+                
+                <div id="tourRow2">
+                    <div class="price2">
+                        <div id="venice" class="tourOptions2">
+                            <label for="veniceInput">
+                                <a href="bestTours.html"><input type="submit" value="Learn More" id="veniceInput"></a>
+                            </label>
+                        </div>
+                        <br>
+                        <h4>Italy, Venice</h4>
+                        <h4 class="priceVenice">$350</h4>
+                    </div>
+                    <div class="price2">
+                        <div id="paris" class="tourOptions2">
+                            <label for="parisInput">
+                                <a href="bestTours.html"><input type="submit" value="Learn More" id="parisInput"></a>
+                            </label>
+                        </div>
+                        <h4>France, Paris</h4>
+                        <h4 class="priceParis">$200</h4>
+                    </div>
+                    <div class="price2">
+                        <div id="london" class="tourOptions2">
+                            <label for="londonInput">
+                                <a href="bestTours.html"><input type="submit" value="Learn More" id="londonInput"></a>
+                            </label>
+                        </div>
+                        <h4>England, London</h4>
+                        <h4 class="priceLondon">$430</h4>
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+
+<!--          *******       OUR SERVICES      *******               -->
+    <div id="ourServices">
+        <h1>Our Services</h1>
+
+        <div id="serviceContent">
+            <div class="services">
+                <img src="../IMAGES/airplaneIcon.png" alt="Air Tickets" width="50" height="50">
+                <h3>Air Tickets</h3>
+                <hr>
+                <p class="description">
+                    At our travel agency, you can book air tickets to any world destination .
+                    We also provide online ticket booking via ourwebsite in just a couple of steps.
+                </p>
+            </div>
+            <div class="services">
+                <img src="../IMAGES/mapIcon.png" alt="Voyages &  Cruises" width="50" height="50">
+                <h3>Voyages & Cruises</h3>
+                <hr>
+                <p class="description">
+                    Besides regular tours and excursions, we also offer a variety of
+                    cruises & sea voyages for different customers looking for awesome experiences.
+                </p>
+            </div>
+            <div class="services">
+                <img src="../IMAGES/hotelIcon.png" alt="Hotel Booking" width="50" height="50">
+                <h3>Hotel Booking</h3>
+                <hr>
+                <p class="description">
+                    We offer a wide selection of hotel ranging from 5-star ones to small
+                    properties located worldwide so that you could book a hotel you like.
+                </p>
+            </div>
+            <div class="services">
+                <img src="../IMAGES/ubmrellaIcon.png" alt="Tailored Summer Tours" width="55" height="55">
+                <h3>Tailored Summer Tours</h3>
+                <hr>
+                <p class="description">
+                    Our agency provides varied tours including tailored summer tours for
+                    clients who are searching for an exclusive and memorable vacation.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+<!--          *******       FOOTER      *******               -->
+    <footer>
+        <div id="footer1">
+            <div id="foot1">
+                <h1>Buy a Tour Without leaving your home</h1>
+                <label for="bookNow">
+                    <a href="#top"><input type="submit" value="Book Now" id="bookNow"></a>
+                </label>
+            </div>
+        </div>
+
+        <div id="footer2">
+            <p>&copy; All Rights Reserved Terms of Use And Privacy Policy</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

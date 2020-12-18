@@ -1,0 +1,56 @@
+footer {
+    position: relative;
+    top: 50px;
+}
+
+#footer1 {
+    width: 100vw;
+    height: 130px;
+    background-color: rgb(52, 58, 64);
+}
+
+#footer1 h1 {
+    color: #ffa900;
+    position: absolute;
+    top: 45px;
+    left: 200px;
+    text-transform: uppercase;
+}
+
+#footer1 input[id="bookNow"] {
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    top: 43px;
+    right: 200px;
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 254, 254, 0);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#footer1 input[id="bookNow"]:hover {
+    background-color: #ffa900;
+    border: 1px solid #ffa900;
+    cursor: pointer;
+}
+
+#footer2 {
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(21, 21, 21);
+}
+
+#footer2 img {
+    margin-left: 200px;
+}
+
+#footer2 p {
+    margin-top: 50px;
+    text-align: center;
+    color: #868e96;
+}

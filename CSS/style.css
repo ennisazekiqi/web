@@ -1,0 +1,443 @@
+@import url(../CSS/header.css);
+@import url(../CSS/footer.css);
+* {
+    font-family: PT Sans, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*          ********************       MAIN      ********************               */
+/************************************************************************************/
+#main {
+    position: relative;
+    top: 80;
+    left: 0;
+    width: 100vw;
+    height: 650px;
+    background-image: url(../IMAGES/travel-agency-beach.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 650px;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+}
+
+#content #dreamTrip {
+    width: 500px;
+    height: 240px;
+    color: #ffffff;
+}
+
+#content #dreamTrip h1 {
+    margin-bottom: 40px;
+}
+
+#content #dreamTrip input {
+    margin-top: 10px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: rgba(255, 254, 254, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#content #dreamTrip input:hover {
+    cursor: pointer;
+    background-color: #ffa900;
+    border: 1px solid #ffa900;
+}
+
+#content #searchFlight {
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    width: 400px;
+    height: 450px;
+    background-color: #f7f7f5e6;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#content #searchFlight h1 {
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#content .title1 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#content #from {
+    width: 313px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#content .title2 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#content #to {
+    width: 313px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#content #dd1 {
+    display: flex;
+    margin-top: 40px;
+}
+
+#content #dd1 #departDate {
+    margin-left: 15px;
+}
+
+#content #dd1 #duration {
+    margin-left: 85px;
+}
+
+#content #dd2 input {
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#content #ac1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+#content #ac1 #adults {
+    margin-left: 15px;
+}
+
+#content #ac1 #children {
+    margin-left: 110px;
+}
+
+#content #ac2 input {
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#content input[value="Search Flight"] {
+    background-color: #ffa900;
+    width: 313px;
+    height: 40px;
+    margin-top: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#content input[value="Search Flight"]:hover {
+    cursor: pointer;
+}
+
+/*          ********************       OUR BEST TOURS      ********************               */
+/**********************************************************************************************/
+
+#bestTour {
+    position: relative;
+    height: 830px;
+    width: 100vw;
+    top: 100;
+}
+
+#bestTour #heading {
+    display: flex;
+    width: 1300px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#bestTour h1 {
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#heading #viewTours {
+    display: flex;
+    align-items: center;
+    margin-left: 700px;
+    height: 80px;
+    width: 220px;
+}
+
+#heading #viewTours input {
+    width: 220px;
+    height: 35px;
+    background-color: #ffa900;
+    border: 1px solid #ffa900;
+    outline: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+#bestTour input:hover {
+    cursor: pointer;
+}
+
+#tourOptionStyle {
+    position: relative;
+    top: 0;
+    width: 1295px;
+    height: 750px;
+    margin: 0 auto;
+}
+
+#tourRow1, #tourRow2 {
+    position: absolute;
+    width: auto;
+    height: 345px;
+    margin: 0 auto;
+}
+
+#tourRow2 {
+    top: 330px;
+}
+
+.price1, .price2 {
+    width: 410px;
+    height: 330px;
+    float: left;
+    margin: 10px;
+}
+
+.price2 {
+    position: relative;
+}
+
+h4 {
+    display: inline;
+    margin-left: 20px;
+}
+
+h4.priceBerlin {
+    position: absolute;
+    left: 27%;
+    color: #ffa900;
+}
+
+h4.priceBoston {
+    position: relative;
+    left: 52%;
+    color: #ffa900;
+}
+
+h4.priceEgypt {
+    position: relative;
+    left: 31%;
+    color: #ffa900;
+}
+
+h4.priceVenice {
+    position: absolute;
+    left: 80%;
+    color: #ffa900;
+}
+
+h4.priceParis {
+    position: relative;
+    left: 50%;
+    color: #ffa900;
+}
+
+h4.priceLondon {
+    position: relative;
+    left: 45%;
+    color: #ffa900;
+}
+
+.tourOptions1, .tourOptions2 {
+    width: 390px;
+    height: 280px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+    float: left;
+}
+
+#berlin {
+    background-image: url(../IMAGES/berlin.jpg);
+    background-size: 390px 280px;
+    background-repeat: no-repeat;
+}
+
+#boston {
+    background-image: url(../IMAGES/boston.jpg);
+    background-size: 390px 280px;
+    background-repeat: no-repeat;
+}
+
+#egypt {
+    background-image: url(../IMAGES/egypt.jpg);
+    background-size: 390px 280px;
+    background-repeat: no-repeat;
+}
+
+#venice {
+    background-image: url(../IMAGES/venice.jpg);
+    background-size: 390px 280px;
+    background-repeat: no-repeat;
+}
+
+#paris {
+    background-image: url(../IMAGES/paris.jpg);
+    background-size: 390px 280px;
+    background-repeat: no-repeat;
+}
+
+#london {
+    background-image: url(../IMAGES/london.jpg);
+    background-size: 390px 280px;
+    background-repeat: no-repeat;
+}
+
+#berlinInput, #bostonInput, #egyptInput, #veniceInput, #parisInput, #londonInput {
+    display: none;
+}
+
+#berlin:hover, #boston:hover, #egypt:hover, #venice:hover, #paris:hover, #london:hover {
+    cursor: pointer;
+}
+
+#berlin:hover input[id="berlinInput"], #boston:hover input[id="bostonInput"], #egypt:hover input[id="egyptInput"], #venice:hover input[id="veniceInput"], #paris:hover input[id="parisInput"], #london:hover input[id="londonInput"] {
+    display: inline;
+    width: 120px;
+    height: 36px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #ffa900;
+}
+
+a {
+    text-decoration: none;
+}
+
+#berlin:hover input[id="berlinInput"] {
+    position: absolute;
+    top: 150px;
+    left: 155px;
+}
+
+#boston:hover input[id="bostonInput"] {
+    position: relative;
+    top: 122px;
+    left: 135px;
+}
+
+#egypt:hover input[id="egyptInput"] {
+    position: relative;
+    top: 122px;
+    left: 135px;
+}
+
+#venice:hover input[id="veniceInput"] {
+    position: absolute;
+    top: 122px;
+    left: 135px;
+}
+
+#paris:hover input[id="parisInput"] {
+    position: relative;
+    top: 122px;
+    left: 135px;
+}
+
+#london:hover input[id="londonInput"] {
+    position: relative;
+    top: 122px;
+    left: 135px;
+}
+
+/*          ********************       OUR BEST SERVICES      ********************               */
+/*************************************************************************************************/
+
+#ourServices {
+    position: relative;
+    top: 50px;
+    width: 100vw;
+    height: 540px;
+    background-color: #f7f7f7;
+}
+
+#ourServices h1 {
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+#serviceContent {
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 390px;
+    display: flex;
+}
+
+#serviceContent .services {
+    width: 250px;
+    height: 310px;
+    border: 1px solid #838383;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    left: 250px;
+}
+
+#serviceContent .services:hover {
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#serviceContent h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#serviceContent p {
+    margin-top: 15px;
+}
+
+#serviceContent .description {
+    width: 250px;
+}
+
+hr {
+    width: 230px;
+}
