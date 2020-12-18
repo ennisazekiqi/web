@@ -1,0 +1,301 @@
+* {
+    font-family: PT Sans, Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 85px;
+    background-color: #ffffff;
+    z-index: 9999;
+}
+
+.fleks {
+    display: flex;
+    width: 1340px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header img {
+    height: 80px;
+}
+
+nav {
+    position: absolute;
+    align-items: center;
+    width: 50vw;
+    height: 40px;
+    top: 30px;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    color: #ffa900;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 17px;
+}
+
+nav select {
+    border: none;
+    outline: none;
+    font-size: 17px;
+    width: 170px;
+    cursor: pointer;
+}
+
+nav select:hover {
+    color: #ffa900;
+}
+
+
+
+
+
+/*      **********      About Us        **********      */
+/********************************************************/
+
+#aboutUs {
+    position: relative;
+    top: 85px;
+    width: 100vw;
+    height: 500px;
+    background-image: url(../IMAGES/BoraBora.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    display: flex;
+}
+
+#aboutUs #about {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto 0 auto;
+}
+
+#aboutUs #aboutUsContent {
+    width: 300px;
+    height: 200px;
+    margin: 125px auto 0 auto;
+    text-align: center;
+}
+
+#aboutUs #aboutUsContent #pOne {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#aboutUs #aboutUsContent #pTwo {
+    color: #ffffff;
+    font-size: 70px;
+}
+
+
+
+
+
+/*      **********      WE ARE SEALINE        **********      */
+/**************************************************************/
+
+#weSealine {
+    position: relative;
+    width: 100vw;
+    height: 460px;
+    top: 85px;
+}
+
+#weSealine #sealine {
+    display: flex;
+    width: 1200px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+#weSealine #left, #right {
+    width: 500px;
+    height: 340px;
+    margin: 60px auto;
+}
+
+#weSealine #left {
+    background-image: url(../IMAGES/weSealine.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 340px;
+}
+
+#weSealine h1 {
+    margin-bottom: 45px;
+}
+
+#weSealine #pOne {
+    margin-bottom: 15px;
+}
+
+#weSealine #pTwo {
+    color: #a7a7a6;
+}
+
+#weSealine input[value="Learn More"] {
+    margin-top: 50px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid #838386;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(255, 254, 254, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#weSealine input[value="Learn More"]:hover {
+    cursor: pointer;
+    background-color: #ffa900;
+    border: 1px solid #ffa900;
+}
+
+
+
+
+/*      **********      Description      **********      */
+/*********************************************************/
+
+#description {
+    position: relative;
+    top: 90px;
+    width: 100vw;
+    height: 200px;
+    background-color: #f7f7f7;
+}
+
+#description #content {
+    width: 1300px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#description .descriptionOptions {
+    width: 310px;
+    height: 170px;
+    margin: 15px auto;
+}
+
+#description img {
+    width: 45px;
+    height: 45px;
+}
+
+#description .relative {
+    position: relative;
+    top: -30px;
+    left: 60px;
+    font-size: 18px;
+}
+
+#description .color {
+    color: #a7a7a6;
+}
+
+
+
+
+
+/*      **********      OUR TEAM      **********      */
+/******************************************************/
+
+#ourTeam {
+    position: relative;
+    top: 90px;
+    width: 100vw;
+    height: 670px;
+}
+
+#ourTeam #team {
+    width: 1400px;
+    height: 670px;
+    margin: 0 auto;
+}
+
+#ourTeam #firstRow, #secondRow {
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#ourTeam .members {
+    width: 230px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#ourTeam img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+#ourTeam p {
+    text-align: center;
+}
+
+#ourTeam .name {
+    color: #ffa900;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
+
+#ourTeam .position {
+    font-size: 13px;
+}
+
+
+
+
+
+/*      **********      FOOTER      **********      */
+/****************************************************/
+
+footer {
+    position: relative;
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(52, 58, 64);
+    top: 50px;
+}
+
+footer #footer {
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+    top: 25px;
+    color: #a7a7a6;
+}
+
+footer #most {
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffa900;
+}
